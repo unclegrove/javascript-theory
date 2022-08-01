@@ -93,3 +93,40 @@ console.log(Math.round(x * 10) / 10); // Correct rounding;
 // } else {
 //   alert("I don't know you");
 // }
+
+// const questionInput = prompt(
+//   'What is the "official" appellation of Java Script?',
+// );
+
+// if (questionInput === 'ECMAScript') {
+//   alert('Correct!');
+// } else {
+//   alert("Wrong! You don't know? It's ECMAScript!");
+// }
+
+// let userNumber = prompt('Enter the number');
+
+// if (userNumber > 0) {
+//   alert('1');
+// } else if (userNumber < 0) {
+//   alert('-1');
+// } else {
+//   alert('0');
+// }
+
+// let a = 2;
+// let b = 1;
+// let result = a + b < 4 ? 'Нижче' : 'Вище';
+// console.log(result);
+
+// let login = 'Працівник';
+// let message =
+//   login == 'Працівник'
+//     ? 'Привіт'
+//     : login == 'Директор'
+//     ? 'Вітаю'
+//     : login == ''
+//     ? 'Немає логіну'
+//     : '';
+
+// console.log(message);
