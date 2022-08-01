@@ -43,3 +43,53 @@ console.log(Math.round(x * 10) / 10); // Correct rounding;
 // const letterToCompareTwo = 'A';
 // console.log(letterToCompareTwo.charCodeAt());
 // console.log(letterToCompareOne > letterToCompareTwo);
+
+// let stringUnicode = '';
+// for (let i = 65; i <= 220; i += 1) {
+//   stringUnicode += String.fromCodePoint(i);
+// }
+// console.log(stringUnicode);
+
+// const stringExampleOne = `Hello
+// * Anton
+// * Vasyl
+// * Yana`;
+// console.log(stringExampleOne);
+
+// const stringExampleTwo = 'Hello\n * Anton\n * Vasyl\n * Yana';
+// console.log(stringExampleTwo);
+
+// console.log('' + 1 + 0); //  '10'
+// console.log('' - 1 + 0); // '-1'
+// console.log(true + false); // 1
+// console.log(6 / '3'); // 2
+// console.log('2' * '3'); // 6
+// console.log(4 + 5 + 'px'); // '9px'
+// console.log('$' + 4 + 5); // '$45'
+// console.log('4' - 2); // 2
+// console.log('4px' - 2); // NaN
+// console.log('  -9  ' + 5); // '  -9  5'
+// console.log('  -9  ' - 5); // -14
+// console.log(null + 1); // 1
+// console.log(undefined + 1); // NaN
+// console.log(' \t \n' - 2); // -2
+
+//console.log(!!'0'); // => !!  === Boolean('0')
+
+// const userName = prompt("Who's there?");
+
+// if (userName === 'Admin') {
+//   let userPassword = prompt('Password?');
+
+//   if (userPassword === 'Master') {
+//     alert('Welcome!');
+//   } else if (userPassword === '' || userPassword === null) {
+//     alert('Cancelled');
+//   } else {
+//     alert('Wrong password!');
+//   }
+// } else if (userName === '' || userName === null) {
+//   alert('Cancelled');
+// } else {
+//   alert("I don't know you");
+// }
